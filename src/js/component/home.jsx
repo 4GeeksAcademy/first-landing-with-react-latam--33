@@ -11,16 +11,16 @@ const Home = () => {
 	return (
 		<div>
 		  {/* Barra de navegación */}
-		  	<Navbar expand="lg" className="bg-dark" >
+		  	<Navbar expand="lg" className="bg-dark text-white" >
 				<Container>
-					<Navbar.Brand href="#home">Start Bootsrap</Navbar.Brand>
-					<Navbar.Toggle aria-controls="basic-navbar-nav" />
-						<Navbar.Collapse id="basic-navbar-nav" className="lg-d-flex justify-content-end">
+					<Navbar.Brand href="#home" className="text-white">Start Bootsrap</Navbar.Brand>
+					<Navbar.Toggle aria-controls="basic-navbar-nav" className="text-white" />
+						<Navbar.Collapse id="basic-navbar-nav" className="lg-d-flex justify-content-end ">
 							<Nav>
-								<Nav.Link href="#home">Home</Nav.Link>
-								<Nav.Link href="#link">About</Nav.Link>
-								<Nav.Link href="#link">Services</Nav.Link>
-								<Nav.Link href="#link">Contact</Nav.Link>
+								<Nav.Link href="#home" className="text-white">Home</Nav.Link>
+								<Nav.Link href="#link" className="text-white">About</Nav.Link>
+								<Nav.Link href="#link" className="text-white">Services</Nav.Link>
+								<Nav.Link href="#link" className="text-white">Contact</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 				</Container>
