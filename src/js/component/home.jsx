@@ -1,31 +1,17 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import Nvbar from "./navbar.jsx"
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+
 
 //create your first component
 const Home = () => {
 	return (
 		<div>
 		  {/* Barra de navegación */}
-		  	<Navbar expand="lg" className="bg-dark text-white" >
-				<Container>
-					<Navbar.Brand href="#home" className="text-white">Start Bootsrap</Navbar.Brand>
-					<Navbar.Toggle aria-controls="basic-navbar-nav" className="text-white" />
-						<Navbar.Collapse id="basic-navbar-nav" className="lg-d-flex justify-content-end ">
-							<Nav>
-								<Nav.Link href="#home" className="text-white">Home</Nav.Link>
-								<Nav.Link href="#link" className="text-white">About</Nav.Link>
-								<Nav.Link href="#link" className="text-white">Services</Nav.Link>
-								<Nav.Link href="#link" className="text-white">Contact</Nav.Link>
-							</Nav>
-						</Navbar.Collapse>
-				</Container>
-			</Navbar>
-  
+		  	
+				<Nvbar></Nvbar>
+		
 
 	
 		  {/* Encabezado con llamada a la acción */}
@@ -54,5 +40,6 @@ const Home = () => {
 		</div>
 	  );
 	};
+	
 
 export default Home;
