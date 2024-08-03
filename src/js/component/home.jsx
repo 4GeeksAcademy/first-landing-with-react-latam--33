@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Jumbotron from "./jumbotron.jsx";
+import Cards from './cards.jsx';
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
