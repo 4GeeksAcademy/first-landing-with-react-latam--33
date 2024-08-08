@@ -1,3 +1,11 @@
+# Team 
+- ## Cesar contreras - navbar
+- ## Alexander - jumbotron
+- ## Kevin Torrico - Cards 
+- ## Gustavo Liendo - footer
+- ## Luis - Aligment 
+- ## Anguibell - ?
+
 # Hello World with React boilerplate
 
 Start coding a react application
