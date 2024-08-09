@@ -3,7 +3,7 @@
 - ## Alexander - jumbotron
 - ## Kevin Torrico - Cards 
 - ## Gustavo Liendo - footer
-- ## Luis - Aligment 
+- ## Luis Guerrero- Aligment 
 - ## Anguibell - ?
 
 # Hello World with React boilerplate
