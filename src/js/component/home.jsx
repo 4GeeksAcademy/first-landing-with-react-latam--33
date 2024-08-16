@@ -37,8 +37,10 @@ const Home = () => {
 		  </header>
 	
 		  {/* Sección de tarjetas */}
-		  <Cards></Cards>
-	
+		  <div>
+		  	<Cards></Cards>
+		  </div>
+		  
 		  {/* Pie de página */}
 		  <footer style={{ textAlign: 'center', padding: '20px' }}>
 			<p>Copyright © Your Website 2024</p>
