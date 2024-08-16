@@ -20,10 +20,8 @@ const Home = () => {
 			<Jumbotron></Jumbotron>
 
 			{/* Sección de tarjetas */}
-			<div>
-				<Cards></Cards>
-			</div>
-			
+			<Cards></Cards>
+
 			{/* Pie de página */}
 			<Footer></Footer>
 		</div>
